@@ -1,0 +1,3390 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/fundo-br02.png);
+}
+
+main {
+    width: 1300px;
+    min-height: 738px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff3e4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: solid 1px #f9a340;
+}
+
+header {
+    width: 1300px;
+    height: 175px;
+    background-color: #f9a340;
+    padding-top: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#titulo_header {
+    width: 850px;
+    height: 115px;
+    float: left;
+    padding-top: 35px;
+}
+
+#div_image_header {
+    width: 450px;
+    height: 150px;
+    float: left;
+}
+
+#titulo_cms {
+    width: 700px;
+    height: 80px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 28px;
+    font-family: Arial;
+}
+
+#image_header {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+#img_header {
+    height: 150px;
+    width: 150px;
+}
+
+#menu {
+    width: 1300px;
+    height: 200px;
+/*    background-color: blue;*/
+}
+
+#div_item_menu {
+    width: 930px;
+    height: 180px;
+/*    background-color: blueviolet;*/
+    float: left;
+    padding: 10px;
+}
+
+.link_menu {
+    color: black;
+}
+
+.item_menu {
+    height: 180px;
+    width: 215px;
+    float: left;
+    margin-right: 15px;
+}
+
+.image_item_menu {
+    height: 150px;
+    width: 185px;
+    padding-left: 30px;
+}
+
+.img_menu {
+    width: 150px;
+    height: 150px;
+}
+
+.text_item_menu {
+    height: 30px;
+    width: 215px;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#usuario_menu {
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+#nome_usuario {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 26px;
+    font-family: arial;
+}
+
+#div_logout {
+    width: 150px;
+    height: 40px;
+    float: right;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 28px;
+/*    font-family: Arial;*/
+}
+
+#link_logout {
+    color: blue;
+    text-decoration: none;
+}
+
+#content_home {
+    min-height: 310px;
+    width: 1300px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 80px;
+    color: #848484;
+    text-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+/*----------------------------CONTEÚDO-----------------------------*/
+
+#content_conteudo {
+    width: 1300px;
+    min-height: 500px;
+}
+
+.divisao_div_conteudo {
+    width: 610px;
+    height: 460px;
+    float: left;
+    padding: 20px;
+}
+
+.item_conteudo {
+    width: 610px;
+    height: 120px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.image_conteudo {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    float: left;
+}
+
+.icone_img {
+    width: 100px;
+    height: 100px;
+}
+
+.label_conteudo {
+    width: 380px;
+    height: 100px;
+    float: left;
+    font-size: 48px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/*------------------ADM. PRODUTO----------------*/
+#content_produto {
+    width: 1300px;
+    min-height: 300px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.item_produto {
+    width: 620px;
+    height: 120px;
+    margin-top: 10px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+.image_produto {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    float: left;
+}
+
+.label_produto {
+    width: 380px;
+    height: 100px;
+    float: left;
+    font-size: 48px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/*-----------------------SLIDER-------------------*/
+#content_slider {
+    width: 1300px;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+#title_slider {
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#cadastro_imagem_slider {
+    width: 500px;
+    min-height: 250px;
+    background-color: #1f1f1f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.label_cadastro_slider {
+    width: 300px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+    margin-bottom: 10px;
+}
+
+.div_imagem_selecionada_slider {
+    width: 480px;
+    height: 180px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.div_imagem_selecionada_slider img {
+    max-width: 300px;
+    max-height: 180px;
+    text-align: center;
+}
+
+.arquivo_foto_slider {
+    width: 210px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#btn_slider {
+    height: 50px;
+    width: 170px;
+    background-color: #00b500;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#div_table_slider {
+    width: 1300px;
+    min-height: 300px;
+    padding-top: 10px;
+}
+
+#table_slider {
+    width: 600px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_slider {
+    width: 600px;
+    height: 60px;
+    background-color: darkorange;
+}
+
+#imagem_slider {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#excluir_slider {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_slider {
+    height: 200px;
+    width: 600px;
+}
+
+#valor_imagem_slider {
+    height: 200px;
+    width: 399px;
+    float: left;
+    border-right: solid 1px black;
+    background-color: black;
+}
+
+.img_slider {
+    height: 200px;
+    width: 399px;
+}
+
+#valor_excluir_slider {
+    height: 200px;
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+#div_icone_excluir_slider {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icone_slider {
+    height: 50px;
+    width: 50px;
+}
+
+/*--------------------CATEGORIA-----------------*/
+#content_categoria {
+    width: 1300px;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+#title_categoria {
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#cadastro_categoria {
+    width: 400px;
+    height: 210px;
+    background-color: #1f1f1f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#title_cadastro_categoria {
+    height: 50px;
+    width: 400px;
+    background-color: #1f1f1f;
+    color: darkorange;
+    text-align: center;
+    font-family: Arial;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: solid 2px 
+}
+
+#label_cadastro_categoria {
+    height: 30px;
+    width: 390px;
+    font-size: 24px;
+    padding-left: 10px;
+    font-family: Arial;
+    color: darkorange;
+    margin-top: 10px;
+}
+
+#div_input_categoria {
+    height: 50px;
+    width: 390px;
+    padding-left: 10px;
+}
+
+#input_categoria {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 380px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+#div_btn_categoria {
+    height: 50px;
+    width: 170px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_categoria {
+    height: 50px;
+    width: 170px;
+    background-color: #00b500;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#btn_categoria:hover {
+    background-color: green;
+}
+
+#div_table_categoria {
+    width: 800px;
+    min-height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#titulos_tabela_categoria {
+    height: 60px;
+    width: 800px;
+    background-color: darkorange;
+}
+
+#nome_categoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#atualizar_categoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+    border-right: solid 1px black;
+}
+
+#excluir_categoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_categoria {
+    min-height: 60px;
+    width: 800px;
+}
+
+#valor_nome_categoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#valor_editar_categoria {
+    height: 60px;
+    width: 200px;
+    border-right: solid 1px black;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#valor_excluir_categoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/*----------------SUBCATEGORIA------------------*/
+#content_subcategoria {
+    width: 1300px;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+#title_subcategoria {
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#cadastro_subcategoria {
+    width: 400px;
+    height: 300px;
+    background-color: #1f1f1f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#title_cadastro_subcategoria {
+    height: 50px;
+    width: 400px;
+    background-color: #1f1f1f;
+    color: darkorange;
+    text-align: center;
+    font-family: Arial;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: solid 2px 
+}
+
+.label_cadastro_subcategoria {
+    height: 30px;
+    width: 390px;
+    font-size: 24px;
+    padding-left: 10px;
+    font-family: Arial;
+    color: darkorange;
+    margin-top: 10px;
+}
+
+.div_input_subcategoria {
+    height: 50px;
+    width: 390px;
+    padding-left: 10px;
+}
+
+#input_subcategoria {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 380px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+#select_subcategoria {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 380px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+#div_btn_subcategoria {
+    height: 50px;
+    width: 170px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_subcategoria {
+    height: 50px;
+    width: 170px;
+    background-color: #00b500;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#btn_subcategoria:hover {
+    background-color: green;
+}
+
+#div_table_subcategoria {
+    width: 1200px;
+    min-height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#titulos_tabela_subcategoria {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#nome_subcategoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#nome_categoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#atualizar_subcategoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+    border-right: solid 1px black;
+}
+
+#excluir_subcategoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_subcategoria {
+    min-height: 60px;
+    width: 1200px;
+}
+
+#valor_nome_subcategoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#valor_nome_categoria {
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#valor_editar_subcategoria {
+    height: 60px;
+    width: 200px;
+    border-right: solid 1px black;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#valor_excluir_subcategoria {
+    height: 60px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/*-------------ADMINISTRAÇÃO PRODUTOS-----------*/
+#content_adm_produto {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_adicionar_ambiente {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#div_table_produto {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_produto {
+    width: 1200px;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_produto {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#imagem_produto {
+    width: 151px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#nome_produto {
+    width: 370px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#preco_produto {
+    width: 160px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#subcategoria_produto {
+    width: 320px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_produto {
+    width: 199px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_produto {
+    min-height: 150px;
+    width: 1200px;
+    border-bottom: solid 1px black;
+}
+
+#valor_imagem_produto {
+    min-height: 150px;
+    width: 150px;
+    float: left;
+    border-right: solid 1px black;
+}
+
+.img_produto {
+    height: 150px;
+    width: 150px;
+}
+
+#valor_nome_produto{
+    min-height: 150px;
+    width: 370px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+#valor_preco_produto{
+    height: 150px;
+    width: 160px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding-top: 55px;
+}
+
+#valor_subcategoria_produto {
+    height: 150px;
+    width: 320px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding-top: 55px;
+}
+
+#valor_itens_tabela_produto {
+    min-height: 150px;
+    width: 199px;
+    float: left;
+}
+
+.icone_funcao_produto {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 50px;
+}
+
+/*---------------------ADICIONAR PRODUTO-----------------------*/
+#content_add_produto {
+    min-height: 300px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_add_produto {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+#title_add_produto {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#voltar_para_adm_produto {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#cadastrar_produto {
+    width: 500px;
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.label_cadastro_produto {
+    width: 300px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+    margin-bottom: 10px;
+}
+
+.div_imagem_selecionada_produto {
+    width: 480px;
+    height: 180px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.div_imagem_selecionada_produto img {
+    max-width: 300px;
+    max-height: 180px;
+    text-align: center;
+}
+
+.arquivo_foto_produto {
+    width: 210px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.div_input_cadastro_produto {
+    height: 50px;
+    width: 490px;
+    padding-left: 10px;
+}
+
+.input_produto {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 480px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+}
+
+#div_textarea_produto {
+    width: 490px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+#textarea_produto {
+    height: 140px;
+    width: 480px;
+    border: 0px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial;
+    outline: inherit;
+    color: #555555;
+}
+
+#select_produto_subcategoria {
+    background-color: white;
+    height: 40px;
+    width: 480px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+}
+
+#div_btn_produto {
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_produto {
+    height: 50px;
+    width: 150px;
+    background-color: #00b500;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#btn_produto:hover {
+    background-color: green;
+}
+
+#frmproduto {
+    margin-top: 10px;
+}
+
+/*-------------------------ESTATISTICAS---------------------------*/
+#content_estatisticas {
+    width: 1300px;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+#title_estatisticas {
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#div_grafico {
+    width: 1300px;
+    min-height: 200px;
+    padding-top: 10px;
+}
+
+.faixa_grafico {
+    width: 1300px;
+    height: 100px;
+}
+
+.nome_produto_grafico {
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.grafico {
+    height: 100px;
+    width: 800px;
+    margin-left: 50px;
+    background-color: #e0e0e0;
+    float: left;
+    border-left: solid 2px black;
+}
+
+.linha_grafico {
+    height: 60px;
+    margin-top: 20px;
+}
+
+#linha_inferior_grafico {
+    width: 800px;
+    background-color: green;
+    border-top: solid 2px black;
+    margin-left: 400px;
+}
+
+/*---------------------ADICIONAR LOJAS-------------------------*/
+
+#content_add_loja {
+    min-height: 400px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_add_loja {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+#title_add_loja {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#voltar_para_nossas_lojas {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#cadastrar_loja {
+    width: 700px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+/*    border: solid 1px black;*/
+}
+
+.divisao_cadastro_loja {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.div_input_loja {
+    height: 80px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+#div_input_cidade {
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+
+#input_cidade {
+    height: 45px;
+    width: 350px;
+}
+
+#txtcidade {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+#div_input_bairro {
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+
+#input_bairro {
+    height: 45px;
+    width: 350px;
+}
+
+#txtbairro {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+#div_input_logradouro {
+    height: 80px;
+    width: 470px;
+    float: left;
+}
+
+#input_logradouro {
+    height: 45px;
+    width: 470px;
+}
+
+#txtlogradouro {
+    height: 40px;
+    width: 420px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+#div_input_numero {
+    height: 80px;
+    width: 230px;
+    float: left;
+}
+
+#input_numero {
+    height: 45px;
+    width: 230px;
+}
+
+#txtnumero {
+    height: 40px;
+    width: 180px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+.div_input_telefones {
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+
+#input_telefone1 {
+    height: 45px;
+    width: 350px;
+}
+
+#txttelefone1 {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+#input_telefone2 {
+    height: 45px;
+    width: 350px;
+}
+
+#txttelefone2 {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    margin-left: 10px;
+    outline: inherit;
+}
+
+.label_cadastro_loja {
+    width: 300px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+}
+
+#div_button_loja {
+    height: 50px;
+    width: 700px;
+    text-align: center;
+}
+
+.btn_loja {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_loja:hover {
+    background-color: #ff7600;
+}
+
+/*------------------ADM LOJAS----------------------*/
+
+#content_adm_lojas {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_adicionar_loja {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#div_table_loja {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_loja {
+    width: 1200px;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_loja {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#cidade_loja {
+    width: 230px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#logradouro_loja {
+    width: 290px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#complemento_loja {
+    width: 90px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#bairro_loja {
+    width: 200px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#telefone_loja {
+    width: 190px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_loja {
+    width: 200px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_loja {
+    min-height: 80px;
+    width: 1200px;
+/*    border-bottom: solid 1px black;*/
+}
+
+#valor_cidade_loja {
+    height: 80px;
+    width: 230px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#valor_logradouro_loja {
+    height: 80px;
+    width: 290px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#valor_complemento_loja {
+    height: 80px;
+    width: 90px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 28px;
+}
+
+#valor_bairro_loja {
+    height: 80px;
+    width: 200px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#valor_telefone_loja {
+    height: 80px;
+    width: 190px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-top: 20px;
+}
+
+#valor_itens_tabela_loja {
+    min-height: 80px;
+    width: 199px;
+    float: left;
+}
+
+.icone_funcao_loja {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+/*-------------------------ADM. AMBIENTES--------------------------*/
+
+#content_adm_ambiente {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#administracao_conteudo {
+    height: 50px;
+    width: 1300px;
+}
+
+#title_administracao {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#div_adicionar_ambiente {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#div_table_ambiente {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_ambiente {
+    width: 1200px;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_ambiente {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#imagem_ambiente {
+    width: 400px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#titulo_ambiente {
+    width: 300px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#texto_ambiente {
+    width: 300px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_ambiente {
+    width: 200px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_ambiente {
+    min-height: 160px;
+    width: 1200px;
+    border-bottom: solid 1px black;
+}
+
+#valor_imagem_ambiente{
+    min-height: 160px;
+    width: 399px;
+    float: left;
+    border-right: solid 1px black;
+}
+
+.img_tabela {
+    height: 140px;
+    width: 180px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.img_ambiente {
+    height: 140px;
+    width: 180px;
+}
+
+#valor_titulo_ambiente{
+    min-height: 160px;
+    width: 300px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#valor_texto_ambiente{
+    height: 156px;
+    width: 295px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 20px;
+    font-family: Arial;
+    overflow: hidden;
+    padding: 2px;
+}
+
+#valor_itens_tabela_ambiente{
+    min-height: 160px;
+    width: 199px;
+    float: left;
+}
+
+.icone_funcao {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 50px;
+}
+
+/*-----------------------ADICIONAR AMBIENTE------------------------*/
+
+#content_add_ambiente {
+    min-height: 620px;
+    width: 1300px;
+}
+
+#div_add_ambiente {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+#title_add_ambiente {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#voltar_para_conteudo {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#cadastrar_ambiente {
+    width: 730px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+#cadastro_left {
+    width: 350px;
+    height: 500px;
+    float: left;
+}
+
+#cadastro_right {
+    width: 370px;
+    height: 500px;
+    float: left;
+}
+
+.label_cadastro_ambiente {
+    width: 300px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+}
+
+.div_imagem_selecionada {
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.div_imagem_selecionada img {
+    max-width: 300px;
+    max-height: 180px;
+}
+
+.arquivo_foto {
+    width: 210px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+#foto1 {
+    height: 20px;
+    width: 110px;
+}
+
+#foto2 {
+    height: 20px;
+    width: 110px;
+}
+
+#div_input {
+    height: 50px;
+    width: 360px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#input_titulo {
+    height: 40px;
+    width: 350px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#div_textarea {
+    width: 360px;
+    height: 145px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#textarea_ambiente {
+    height: 140px;
+    width: 350px;
+    border: 0px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#txtfoto {
+    display: none;
+}
+
+#txtfoto2 {
+    display: none;
+}
+
+#btn_add_ambiente {
+    height: 50px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#btn_ambiente {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+}
+
+#btn_ambiente:hover {
+    background-color: #ff7600;
+}
+
+/*-------------------*/
+
+#caixa_botao {
+    height: 68px;
+    width: 96px;
+    margin-left: 1154px;
+}
+
+.button {
+    height: 48px;
+    width: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+#content_usuario {
+    min-height: 200px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#table_usuario {
+    min-height: 150px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item_tabela_usuario {
+    height: 60px;
+    width: 150px;
+    background-color: darkorange;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+    border-right: solid 1px black;
+}
+
+.item_valor_usuario {
+    height: 50px;
+    width: 150px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: solid 1px black;
+}
+
+#content_nivel {
+    min-height: 200px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#table_nivel {
+    min-height: 210px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+#titulos_tabela_nivel {
+    height: 60px;
+    width: 1200px;
+    background-color: aqua;
+}
+
+.campo_tabela_privilegios {
+    height: 60px;
+    width: 450px;
+    background-color: darkorange;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_nivel {
+    width: 1200px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.campo_valor_privilegios {
+    width: 450px;
+    height: 50px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 19px;
+}
+
+#cadastro_nivel {
+    width: 400px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#title_cadastro_nivel {
+    height: 60px;
+    width: 400px;
+    background-color: #1f1f1f;
+    color: darkorange;
+    text-align: center;
+    font-family: Arial;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: solid 2px darkorange;
+}
+
+#div_cadastro_nivel {
+    min-height: 135px;
+    width: 400px;
+    background-color: #1f1f1f;
+    padding-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.div_item_cadastro_nivel {
+    width: 400px;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.privilegio_nivel {
+    width: 400px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.privilegio_left {
+    width: 200px;
+    height: 60px;
+    float: left;
+}
+
+.privilegio_right {
+    width: 200px;
+    height: 60px;
+    float: left;
+}
+
+.checkbox {
+    width: 55px;
+    height: 20px;
+}
+
+.txtckb {
+    font-size: 24px;
+    color: orange;
+}
+
+.label_nivel {
+    height: 30px;
+    width: 490px;
+    font-size: 24px;
+    padding-left: 10px;
+    font-family: Arial;
+    color: darkorange;
+}
+
+.input_nivel {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 370px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+.div_botao_cadastro_nivel {
+    height: 45px;
+    width: 400px;
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+.botao_nivel {
+    border: 0px;
+    background-color: #00b500;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.botao_nivel:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+/*---------------------------CADASTRAR PROMOÇÃO----------------------------*/
+#content_add_promocao {
+    min-height: 300px;
+    width: 1300px;
+}
+
+#div_add_promocao {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+#title_add_promocao {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#cadastrar_promocao {
+    width: 730px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.divisao_cadastro_promocao {
+    width: 380px;
+    height: 100px;
+    float: left;
+}
+
+.divisao_desconto_promocao {
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.divisao_botao_promocao {
+    width: 730px;
+    height: 50px;
+    float: left;
+}
+
+.label_cadastro_promocao {
+    width: 300px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+}
+
+#div_input_promocao {
+    height: 50px;
+    width: 355px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#select_produto {
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+#input_desconto {
+    height: 40px;
+    width: 330px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#btn_promocao {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+    margin-left: 280px;
+}
+
+#btn_promocao:hover {
+    background-color: #ff7600;
+}
+
+/*----------------ADM_PROMOÇÕES--------------------------*/
+#content_adm_promocao {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_adicionar_promocao {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+
+#div_table_promocao {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_promocao {
+    width: 1200px;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_promocao {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#imagem_promocao {
+    width: 151px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#nome_promocao {
+    width: 400px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#preco_promocao {
+    width: 200px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#desconto_promocao {
+    width: 200px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_promocao {
+    width: 249px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_promocao {
+    min-height: 150px;
+    width: 1200px;
+    border-bottom: solid 1px black;
+}
+
+#valor_imagem_promocao{
+    min-height: 150px;
+    width: 150px;
+    float: left;
+    border-right: solid 1px black;
+}
+
+.img_promocao {
+    height: 150px;
+    width: 150px;
+}
+
+#valor_nome_promocao{
+    min-height: 150px;
+    width: 400px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+#valor_preco_promocao{
+    height: 150px;
+    width: 200px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+#valor_desconto_promocao {
+    height: 150px;
+    width: 200px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+#valor_itens_tabela_promocao{
+    min-height: 150px;
+    width: 249px;
+    float: left;
+}
+
+.icone_funcao_promocao {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
+/*----------------------SOBRE---------------------*/
+#content_adm_sobre {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_adicionar_sobre {
+    width: 48px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+}
+#div_table_sobre {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_sobre {
+    width: 1200px;
+    min-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_sobre {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#imagem_sobre {
+    width: 200px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#texto_sobre {
+    width: 800px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_sobre {
+    width: 200px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_sobre {
+    min-height: 140px;
+    width: 1200px;
+    border-bottom: solid 1px black;
+}
+
+#valor_imagem_sobre{
+    min-height: 140px;
+    width: 199px;
+    float: left;
+    border-right: solid 1px black;
+}
+
+.img_sobre {
+    height: 140px;
+    width: 199px;
+}
+
+#valor_texto_sobre{
+    height: 136px;
+    width: 795px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 20px;
+    font-family: Arial;
+    overflow: hidden;
+    padding: 2px;
+    text-align: justify;
+}
+#valor_itens_tabela_sobre{
+    min-height: 140px;
+    width: 199px;
+    float: left;
+}
+
+.icone_funcao {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 50px;
+}
+
+/*------------------CADASTRAR SOBRE---------------*/
+#content_add_sobre {
+    min-height: 400px;
+    width: 1300px;
+}
+
+#div_add_sobre {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+#title_add_sobre {
+    height: 50px;
+    width: 1250px;
+    text-align: center;
+    float: left;
+    font-family: Arial;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#cadastrar_sobre {
+    width: 730px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.divisao_cadastro_sobre {
+    height: 250px;
+    width: 365px;
+    float: left;
+}
+
+.label_cadastro_sobre {
+    height: 35px;
+    width: 355px;
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 10px;
+    color: darkorange;
+}
+
+.arquivo_foto_sobre {
+    width: 120px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+#foto {
+    height: 20px;
+    width: 110px;
+}
+
+#div_textarea_sobre {
+    height: 150px;
+    width: 355px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#textarea_sobre {
+    height: 150px;
+    width: 350px;
+    border: 0px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial;
+    outline: inherit;
+}
+
+#button_sobre {
+    height: 40px;
+    width: 180px;
+    margin-left: 260px;
+    float: left;
+}
+
+#btn_sobre {
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    background-color: darkorange;
+    color: white;
+}
+
+#btn_sobre:hover {
+    background-color: #ff7600;
+}
+
+/*----------ADMINISTRAÇÃO PRODUTO DO MÊS----------*/
+#content_adm_produto_mes {
+    min-height: 295px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_table_produto_mes {
+    width: 1300px;
+    min-height: 235px;
+    padding-top: 10px;
+}
+
+#table_produto_mes {
+    width: 1200px;
+    min-height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela_produto_mes {
+    height: 60px;
+    width: 1200px;
+    background-color: darkorange;
+}
+
+#imagem_produto_mes {
+    width: 151px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#nome_produto_mes {
+    width: 300px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#descricao_produto_mes {
+    width: 499px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#preco_produto_mes {
+    width: 130px;
+    height: 60px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#itens_tabela_produto_mes {
+    width: 120px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela_produto_mes {
+    min-height: 150px;
+    width: 1200px;
+    border-bottom: solid 1px black;
+}
+
+#valor_imagem_produto_mes{
+    height: 150px;
+    width: 150px;
+    float: left;
+    border-right: solid 1px black;
+}
+
+.img_produto_mes {
+    height: 150px;
+    width: 150px;
+}
+
+#valor_nome_produto_mes{
+    height: 150px;
+    width: 300px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#valor_descricao_produto_mes{
+    height: 146px;
+    width: 494px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: justify;
+    padding: 2px;
+}
+
+#valor_preco_produto_mes{
+    height: 88px;
+    width: 125px;
+    float: left;
+    border-right: solid 1px black;
+    font-size: 20px;
+    font-family: Arial;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#valor_itens_tabela_produto_mes{
+    min-height: 150px;
+    width: 119px;
+    float: left;
+}
+
+.icone_funcao_produto_mes {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+/*---------------------FALE CONOSCO--------------------*/
+
+#content_fale_conosco {
+    min-height: 200px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 998;
+    margin-top: -50px;
+    display: none;
+}
+
+.modal {
+    width: 800px;
+    height: 570px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#table {
+    min-height: 150px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela {
+    height: 60px;
+    width: 1200px;
+}
+
+.campo_tabela {
+    height: 60px;
+    width: 300px;
+    background-color: darkorange;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+.item_tabela {
+    height: 60px;
+    width: 150px;
+    background-color: darkorange;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+.segundo_item_tabela {
+    height: 60px;
+    width: 150px;
+    background-color: darkorange;
+    float: left;
+    border-left: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#valores_tabela {
+    width: 1200px;
+    height: 50px;
+    background-color: aquamarine;
+/*    border-bottom: solid 1px black;*/
+}
+
+.campo_valor {
+    width: 300px;
+    height: 50px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.campo_sugestao {
+    width: 300px;
+    height: 50px;
+    float: left;
+    border-right: solid 1px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item_valor {
+    height: 50px;
+    width: 150px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+/*    padding: 12px;*/
+}
+
+.segundo_item_valor {
+    height: 50px;
+    width: 150px;
+    border-left: solid 1px black;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+/*    padding: 12px;*/
+}
+
+.icone {
+    width: 48px;
+    height: 48px;
+}
+
+#icone_visualizar {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+/*-----------------------MODAL 1-----------------------*/
+
+#div_titulo_modal {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#titulo_modal {
+    width: 750px;
+    height: 50px;
+    float: left;
+    font-family: Arial;
+    font-size: 32px;
+    box-sizing: border-box;
+    padding: 7px;
+    padding: 7px;
+    padding-left: 190px;
+    color: white;
+    background-color: #242424;
+}
+
+.fechar_modal {
+    width: 50px;
+    height: 49px;
+    float: left;
+    padding-top: 1px;
+    background-color: #242424;
+}
+
+#informacoes_modal {
+    height: 620px;
+    width: 800px;
+}
+
+.label_item {
+    height: 40px;
+    width: 380px;
+    font-family: Arial;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 5px;
+    color: black;
+    background-color: darkorange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.input_item {
+    height: 40px;
+    width: 380px;
+    margin-left: 5px;
+}
+
+.input1 {
+    height: 40px;
+    width: 380px;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.label_item2 {
+    height: 40px;
+    width: 180px;
+    font-family: Arial;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 5px;
+    color: black;
+    background-color: darkorange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.input_item2 {
+    height: 40px;
+    width: 180px;
+    margin-left: 5px;
+}
+
+.input2 {
+    height: 40px;
+    width: 180px;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.label_item3 {
+    height: 40px;
+    width: 230px;
+    font-family: Arial;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 5px;
+    color: black;
+    background-color: darkorange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.input_item3 {
+    height: 40px;
+    width: 230px;
+    margin-left: 5px;
+}
+
+.input3 {
+    height: 40px;
+    width: 230px;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.input_radio {
+    height: 15px;
+    width: 150px;
+    margin-left: -50px;
+}
+
+.text_radio {
+    font-size: 20px;
+    margin-left: -50px;
+    color: #606060;
+}
+
+.label_item4 {
+    height: 40px;
+    width: 330px;
+    font-family: Arial;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 5px;
+    color: black;
+    background-color: darkorange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.input_item4 {
+    height: 40px;
+    width: 330px;
+    margin-left: 5px;
+}
+
+.input4 {
+    height: 40px;
+    width: 330px;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.input_item5 {
+    height: 140px;
+    width: 380px;
+    margin-left: 5px;
+}
+
+.input5 {
+    height: 140px;
+    width: 380px;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#nome_email {
+    height: 100px;
+    width: 800px;
+}
+
+#div_nome {
+    height: 100px;
+    width: 400px;
+    float: left;
+}
+
+#div_email {
+    height: 100px;
+    width: 400px;
+    float: left;
+}
+
+#fone_sexo_page {
+    height: 100px;
+    width: 800px;
+}
+
+#div_telefone {
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+#div_sexo {
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+#div_homepage {
+    height: 100px;
+    width: 350px; 
+    float: left;
+}
+
+#cell_profissao_face {
+    height: 100px;
+    width: 800px;
+}
+
+#div_celular {
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+#div_profissao {
+    height: 100px;
+    width: 250px;
+    float: left;
+}
+
+#div_facebook {
+    height: 100px;
+    width: 350px;
+    float: left;
+}
+
+#sugestao_informacao {
+    height: 200px;
+    width: 800px;
+}
+
+#div_sugestao {
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+
+#div_informacao {
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+
+/*------------------MODAL USUÁRIO----------------*/
+#div_titulo_modal_usuario {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#titulo_modal_usuario {
+    width: 750px;
+    height: 50px;
+    float: left;
+    font-family: Arial;
+    font-size: 32px;
+    box-sizing: border-box;
+    padding: 7px;
+    padding: 7px;
+    padding-left: 190px;
+    color: white;
+    background-color: #242424;
+}
+
+.fechar_modal_usuario {
+    width: 50px;
+    height: 49px;
+    float: left;
+    padding-top: 1px;
+    background-color: #242424;
+}
+
+#informacoes_modal_usuario {
+    height: 350px;
+    width: 800px;
+}
+
+.section_informacao {
+    height: 100px;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.divisao_section_modal {
+    height: 100px;
+    width: 380px;
+    float: left;
+    margin-left: 10px;
+}
+
+.label_modal_usuario {
+    height: 40px;
+    width: 380px;
+    background-color: darkorange;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Arial;
+}
+
+.div_input_modal_usuario {
+    height: 60px;
+    width: 380px;
+}
+
+.input_modal_usuario {
+    height: 50px;
+    width: 380px;
+    border: 0px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+}
+
+#div_ativo_modal {
+    height: 50px;
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: solid 1px darkorange;
+}
+
+#label_ativo_modal {
+    height: 50px;
+    width: 80px;
+    background-color: darkorange;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Arial;
+    float: left;
+    margin-right: 6px;
+}
+
+#imagem_ativo_modal {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+/*----------------CADASTRO USUÁRIO-----------------*/
+
+.modal_usuario {
+    width: 800px;
+    min-height: 420px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#content_cadastro_usuario {
+    min-height: 200px;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+
+#div_titulo {
+    height: 50px;
+    width: 1300px;
+    margin-bottom: 10px;
+}
+
+#titulo_pagina {
+    height: 50px;
+    width: 1242px;
+    text-align: center;
+    font-size: 34px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+}
+
+#content_usuario_nivel {
+    min-height: 200px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#linha_nivel_usuario {
+    width: 1300px;
+    height: 100px;
+}
+
+#btn_img_usuario {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 475px;
+}
+
+#btn_img_nivel {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+.img_nivel_usuario {
+    width: 100px;
+    height: 100px;
+}
+
+#label_nivel_usuario {
+    width: 1300px;
+    height: 40px;
+}
+
+#label_usuario {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    float: left;
+    margin-left: 475px;
+    font-family: Arial;
+    color: black;
+}
+
+#label_nivel {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+}
+
+#div_cadastro_usuario {
+    min-height: 300px;
+    width: 500px;
+    background-color: #242424;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+/*    border: solid 1px #f9a340;*/
+}
+
+.div_item_cadastro {
+    width: 500px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.label_usuario {
+    height: 30px;
+    width: 490px;
+    font-size: 24px;
+    padding-left: 10px;
+    font-family: Arial;
+    color: darkorange;
+}
+
+.item_cadastro {
+    height: 50px;
+    width: 490px;
+    padding-left: 10px;
+}
+
+.input {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 470px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+    margin-top: 5px;
+}
+
+.div_botao_cadastro {
+    height: 50px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.botao {
+    border: 0px;
+    background-color: #ff9b29;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #ff9317;
+}
+
+footer {
+    border-top: solid 2px #f9a340;
+    height: 90px;
+    width: 1300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 25px;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

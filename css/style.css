@@ -1,0 +1,2177 @@
+/*CSS*/
+/*----------------modo site---------------------*/
+@media screen and (min-device-width:800px){
+/*----------------------Itens para todas as páginas----------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/fundo-br02.png);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #f9a340;
+    position: fixed;
+    z-index: 999;
+}
+    
+.container {
+    display: none;
+}
+    
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 998;
+    display: none;
+}
+
+.modal2 {
+    width: 400px;
+    min-height: 400px;
+    background-color: #fff3e4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    padding-bottom: 20px;
+}
+    
+.container3 {
+    display: none;
+}
+    
+.container4 {
+    display: none;
+}
+
+#cabecalho { /*Div para posicionar os elementos dentro do header*/
+    height: 95px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#logo {
+    height: 90px;
+    width: 90px;
+    margin-left: 50px;
+    float: left;
+}
+
+#menu {
+    height: 65px;
+    width: 550px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+}
+    
+#menu_mobile {
+    display: none;
+}
+
+.link_menu { /*Estilização do link do menu*/
+    color: #555555;
+    text-decoration: none;
+}
+
+.item_menu_home {
+    height: 55px;
+    width: 110px;
+    float: left;
+    margin-left: 2px;
+    font-size: 22px;
+    color: #555555;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.item_menu_home:hover {
+    background-color: #1f1f1f;
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.item_menu_informacoes {
+    height: 55px;
+    width: 130px;
+    float: left;
+    margin-left: 2px;
+    font-size: 22px;
+    color: #555555;
+    padding-top: 40px;
+}
+
+.item_menu_informacoes:hover {
+    background-color: #1f1f1f;
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub_menu_informacoes {
+    height: 216px;
+    width: 186px;
+    background-color: #fff3e4;
+    padding: 5px;
+    margin-top: 29px;
+    display: none;
+    border: solid 2px #f9a340;
+}
+
+.item_menu_informacoes:hover .sub_menu_informacoes {
+    display: block;
+}
+
+.item_sub_menu_informacoes {
+    height: 40px;
+    width: 185px;
+    float: left;
+    margin-left: 2px;
+    font-size: 22px;
+    color: #555555;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.item_sub_menu_informacoes:hover {
+    background-color: #1f1f1f;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.item_menu_ambientes {
+    height: 55px;
+    width: 130px;
+    float: left;
+    margin-left: 2px;
+    font-size: 22px;
+    color: #555555;
+    padding-top: 40px;
+}
+
+.item_menu_ambientes:hover {
+    background-color: #1f1f1f;
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.item_menu_fale_conosco {
+    height: 55px;
+    width: 130px;
+    float: left;
+    margin-left: 2px;
+    font-size: 22px;
+    color: #555555;
+    padding-top: 40px;
+}
+
+.item_menu_fale_conosco:hover {
+    background-color: #1f1f1f;
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#div_login {
+    height: 90px;
+    width: 455px;
+    margin-left: 715px;
+}
+
+#login {
+    height: 88px;
+    width: 360px;
+    float: left;
+    background-color: #ffd993;
+    border-radius: 5px;
+}
+
+.divisaologin {/* Dividir caixas de texto e botão*/
+    width: 175px;
+    height: 90px;
+    float: left;
+    padding-left: 5px;
+}
+
+.up_login { /*Label*/
+    width: 180px;
+    height: 33px;
+    font-size: 20px;
+    padding-top: 12px;
+    color: #555555;
+}
+
+.caixa_texto { /*Estilização das caixas de texto*/
+    background-color: #ffd993;
+    border-radius: 5px;
+    border: 0px;
+    height: 25px;
+    width: 165px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-bottom: solid 2px #f9a340;
+    outline: inherit; /*Tirar a borda azul no click da caixa*/
+    color: #555555;
+}
+
+.down_login { /*div para as caixas de texto*/
+    width: 180px;
+    height: 45px;
+}
+
+#button {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+#botaook { /*Estilização do botão do login*/
+    width: 55px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #555555;
+    background: #ffd993;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botaook:hover {
+    background-color: #fff3e4;
+}
+
+#div_atras { /*Div que fica atrás do header*/
+    height: 100px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+#caixa_rede_social {
+    width: 100px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    position: fixed;
+    margin-left: 1250px;
+    margin-top: 170px;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+}
+
+#rede_social { /*Div para alinhar as imagens dacaixa rede social*/
+    width: 80px;
+    height: 260px;
+}
+    
+#div_rede_social_responsivo {
+    display: none;
+}
+
+#face {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#twitter {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#gmail {
+    width: 80px;
+    height: 80px;
+}
+    
+#icone_rede_social {
+    height: 80px;
+    width: 80px;
+}
+
+footer {
+    width: 1200px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    text-align: center;
+    border-top: solid 1px #f9a340;
+}
+
+#image_footer {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    float: left;
+    margin-top: 20px;
+}
+    
+#img_footer {
+    width: 200px;
+    height: 200px;
+}
+
+#text_footer { /*Div para posicionar o texto no footer*/
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    margin-left: 500px;
+    font-size: 18px;
+    color: #555555;
+    text-align: justify;
+    margin-top: 20px;
+}
+    
+#titulo_footer {
+    font-size: 20px;
+    font-family: MV Boli;
+}
+
+/*------------------Utilizado em quase todas as páginas------------------*/
+.titulo_pagina { /*Titulo de algumas páginas*/
+    height: 80px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #555555;
+    font-family: "MV Boli";
+    text-shadow: 1px 1px 10px black; /*sombreamento no texto*/
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*---------------------------------HOME----------------------------------*/
+#content { /*Content da home*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 900px;
+}
+
+#div_slider {
+    width: 1200px;
+    height: 480px;
+}
+
+#previous { /*botão da esquerda do slide*/
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 200px;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+#next { /*botão da direita do slide*/
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 200px;
+    background-color: gold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.image_slide {
+    width: 1100px;
+    height: 460px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+    
+#div_image_slide_mobile {
+    display: none;
+}
+    
+.image_slide_mobile {
+    display: none;
+}
+
+#slider {
+    width: 1100px;
+    height: 480px;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+#pos_slider { /*Div abaixo do slide*/
+    width: 1200px;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+#menu_lateral {
+    min-height: 580px;
+    width: 246px;
+    background-color: #ffd993;
+    float: left;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: solid 2px #f9a340;
+}
+    
+#menu_lateral_mobile {
+    display: none;
+}
+
+.item { /*Itens do menu lateral*/
+    width: 240px;
+    min-height: 44px;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #555555;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+/*    border-bottom: solid 1px #f9a340;*/
+    cursor: pointer;
+}
+    
+.menu_subitem {
+    width: 240px;
+    min-height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+    
+.subitem {
+    width: 240px;
+    min-height: 20px;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 4px;
+    color: #555555;
+    margin-left: auto;
+    margin-top: auto;
+    cursor: pointer;
+    font-weight: normal;
+}
+    
+#div_pesquisa_produtos {
+    width: 900px;
+    height: 80px;
+    float: left;
+    margin-top: 10px;
+}
+    
+#div_pesquisa {
+    width: 360px;
+    height: 50px;
+    margin-top: 15px;
+    float: right;
+}
+    
+#txtpesquisa {
+    height: 48px;
+    width: 300px;
+    float: left;
+    border: 0px;
+    font-size: 18px;
+    outline: inherit;
+    padding-left: 5px;
+    background-color: #e5e5e5;
+    color: gray;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+    
+#btnpesquisa {
+    height: 50px;
+    width: 50px;
+    background-color: #0062ff;
+    outline: inherit;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0px;
+    background-image: url(../imagens/pesquisa.png);
+    cursor: pointer;
+}
+    
+#produtos { /*div ao lado do menu lateral que guarda os itens produtos*/
+    min-height: 550px;
+    width: 950px;
+    float: left;
+}
+
+.item_produto { /*caixas com produtos*/
+    height: 450px;
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: solid 2px #f9a340;
+    background-color: #fff3e4;
+}
+
+.image_produto {
+    height: 248px;
+    width: 246px;
+    margin: 2px;
+}
+
+.name_produto {
+    width: 246px;
+    height: 45px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.descricao_produto {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 241px;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: #555555;
+    font-size: 20px;
+}
+
+.valor_produto {
+    height: 40px;
+    width: 246px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #555555;
+    padding-top: 10px;
+}
+
+.detalhes_produto {
+    height: 30px;
+    width: 100px;
+    margin-right: 2px;
+    float: right;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: mediumblue;
+}
+
+.detalhes_produto:hover {
+    cursor: pointer;
+}
+    
+.detalhes_produto_mobile {
+    display: none;
+}
+
+.img_orientation_slider {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_orientation_slider:hover {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#previous:hover {
+    width: 40px;
+    height: 40px;
+    background-color: #ffb600;
+}
+
+#next:hover {
+    width: 40px;
+    height: 40px;
+    background-color: #ffb600;
+}
+
+.img_produto_home {
+    width: 246px;
+    height: 248px;
+}
+
+/*-----------------------------------------------------------------------*/
+    
+/*-----------------MODAL PRODUTO--------------------*/
+#faixa_fechar_modal_produto {
+    width: 400px;
+    height: 50px;
+}
+    
+#title_modal {
+    height: 50px;
+    width: 350px;
+    float: left;
+    padding-left: 140px;
+    font-size: 32px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    font-family: Arial;
+    background-color: #1f1f1f;
+    color: darkorange;
+}
+    
+.fechar_modal_produto {
+    width: 50px;
+    height: 50px;
+    background-color: #1f1f1f;
+    float: left;
+    cursor: pointer;
+}
+    
+.icone_fechar_modal {
+    width: 50px;
+    height: 50px;
+}
+    
+#div_imagem_produto {
+    height: 350px;
+    width: 350px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.imagem_produto {
+    height: 350px;
+    width: 350px;
+}
+    
+#div_nome_produto {
+    height: 50px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkorange;
+    text-align: center;
+    font-size: 32px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    color: #434343;
+    font-weight: bold;
+}
+    
+#div_descricao_produto {
+    min-height: 50px;
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color: #555555;
+    font-size: 24px;
+    border-left: solid 2px darkorange;
+    border-right: solid 2px darkorange;
+    border-bottom: solid 1px darkorange;
+}
+    
+#div_preco_produto {
+    height: 50px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: forestgreen;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-left: solid 2px darkorange;
+    border-right: solid 2px darkorange;
+    border-bottom: solid 2px darkorange;
+}
+
+/*-------------------------------PROMOÇÕES-------------------------------*/
+#content_promocoes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 450px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.produtos_promocao {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 0.1px black;
+}
+
+.image_promocao {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.selo_promocao { /*selo de promocao do produto*/
+    height: 90px;
+    width: 90px;
+    float: left;
+    background-color: green;
+    z-index: 999;
+}
+
+.informacoes_promocao { /*div à direita da imagem*/
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.titulo_promocao {
+    width: 500px;
+    height: 40px;
+    background-color: #ffd993;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+    color: #555555;
+}
+
+.descricao_promocao {
+    width: 480px;
+    height: 180px;
+    background-color: #fff3e4;
+    font-size: 20px;
+    padding: 10px;
+    color: #555555;
+    text-align: justify;
+}
+
+.preco_promocao {
+    width: 500px;
+    height: 50px;
+}
+
+.preco_promocao_antigo {
+    width: 245px;
+    height: 38px;
+    padding-top: 12px;
+    font-size: 20px;
+    background-color: #fff3e4;
+    color: red;
+    float: left;
+    padding-left: 5px;
+}
+
+.preco_promocao_novo {
+    width: 245px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 26px;
+    background-color: #fff3e4;
+    color: green;
+    float: left;
+    padding-left: 5px;
+}
+
+.img_promocao {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*---------------------------PRODUTO DO MÊS------------------------------*/
+
+#content_produto_mes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 1050px;
+    padding-bottom: 50px;
+}
+
+.produto_do_mes {
+    width: 600px;
+    min-height: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 0.1px black;
+}
+
+.image_produto_mes {
+    width: 600px;
+    height: 600px;
+}
+
+.informacoes_produto_mes {
+    width: 600px;
+    min-height: 270px;
+}
+
+.name_produto_mes {
+    width: 600px;
+    height: 45px;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 5px;
+    color: #555555;
+    background-color: #f9a340;
+}
+
+.descricao_produto_mes {
+    width: 580px;
+    min-height: 149px;
+    color: #555555;
+    padding: 10px;
+    font-size: 22px;
+    border-bottom: solid 1px darkgray;
+    text-align: justify;
+}
+
+.preco_produto_mes {
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    color: green;
+}
+
+#img_bolo {
+    width: 600px;
+    height: 600px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*--------------------------------SOBRE----------------------------------*/
+
+#content_sobre {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 750px;
+    padding-bottom: 50px;
+}
+
+.faixa_sobre { /*faixa de informações sobre a padoka*/
+    width: 1196px;
+    height: 296px;
+    margin-top: 20px;
+    border: solid 2px #f9a340;
+}
+
+.image_sobre {
+    width: 398px;
+    height: 296px;
+    background-color: lightblue;
+    float: left;
+}
+
+.text_sobre {
+    width: 798px;
+    height: 296px;
+    float: left;
+    font-size: 22px;
+    color: #555555;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #fff3e4;
+}
+
+.img_padaria {
+    width: 398px;
+    height: 296px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.img_padaria:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*-----------------------------NOSSAS LOJAS------------------------------*/
+
+#content_nossas_lojas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+
+.lojas { /*div para uma apresentar informações sobre outras lojas*/
+    width: 1196px;
+    height: 150px;
+    background-color: #ffd993;
+    border: solid 2px #f9a340;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.cidade_loja { /*Possui a cidade que a loja fiva*/
+    width: 296px;
+    height: 90px;
+    float: left;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    border-right: solid 2px #f9a340;
+    color: #555555;
+}
+
+.endereco_telefone_loja { /*telefones e endereços da loja*/
+    width: 878px;
+    height: 130px;
+    float: left;
+    font-size: 24px;
+    padding: 10px;
+    color: #555555;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*-----------------------------AMBIENTES---------------------------------*/
+#content_ambiente {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+
+#leitura { /*espaço para apresentar as informações de leitura*/
+    width: 1200px;
+    min-height: 500px;
+    margin-top: 20px;
+    border-bottom: solid 1px gray;
+    padding-bottom: 20px;
+}
+
+#tecnologia { /*espaço para apresentar as informações de tecnologia*/
+    width: 1200px;
+    min-height: 580px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px gray;
+}
+
+#retro { /*espaço para apresentar as informações de retro*/
+    width: 1200px;
+    min-height: 550px;
+}
+
+.title_sobre {
+    height: 50px;
+    width: 1150px;
+    color: #555555;
+    padding-left: 50px;
+    font-size: 36px;
+    font-family: "MV Boli";
+}
+
+.imagens {
+    min-height: 300px;
+    width: 1200px;
+}
+
+.image_ambiente {
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left: 70px;
+}
+
+.image_ambiente_retro {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 170px;
+}
+
+.img_ambiente {
+    height: 300px;
+    width: 500px;
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.img_ambiente:hover {
+    transition: 1s;
+    opacity: 1;
+}
+
+#image_retro {
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+    opacity: 0.8;
+}
+
+#image_retro:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.text_ambiente {
+    min-height: 100px;
+    width: 1200px;
+    font-size: 22px;
+    color: #555555;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*-----------------------------FALE CONOSCO------------------------------*/
+
+#content_fale_conosco {
+    width: 1200px;
+    height: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#panel { /*painel para todas os itens do fale conosco*/
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    height: 1050px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#title_fale_conosco {
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #555555;
+    text-shadow: 2px 2px 10px black;
+    font-family: "MV Boli";
+}
+
+#pos_title {
+    width: 600px;
+    height: 950px;
+}
+
+.item_cadastro_text { /*Item para armazenar label e input*/
+    width: 600px;
+    height: 80px;
+}
+
+.title_cadastro { /*label de cada campo*/
+    height: 30px;
+    width: 590px;
+    font-size: 22px;
+    padding-left: 10px;
+    color: #555555;
+    font-family: Arial;
+}
+
+.item_cadastro { /*onde ficam os input's*/
+    height: 50px;
+    width: 590px;
+    padding-left: 10px;
+}
+
+.caixa { /*Estilização da caixa de texto do fale conosco*/
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 570px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #555555;
+    outline: inherit;
+}
+
+.item_cadastro_textarea { /*espaço para o textarea*/
+    width: 600px;
+    height: 140px;
+}
+
+.item_caixa_textarea {
+    width: 590px;
+    height: 110px;
+    padding-left: 10px;
+}
+
+.caixa_textarea { /*Estilização dos text-area*/
+    background-color: #f5f5f5;
+    width: 570px;
+    height: 100px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    outline: inherit;
+    resize: none;
+    color: #555555;
+}
+
+.radio { /*Estilização do radio button*/
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    float: left;
+    color: #555555;
+}
+
+#botoes {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.botao { /*estilização do botão do fale conosco*/
+    border: 0px;
+    background-color: #ffb633;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #f9a340;
+}
+
+#text_contato { /*área onde fica um pequeno texto sobre o fale conosco*/
+    width: 590px;
+    height: 290px;
+    background-color: #fff3e4;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: solid 2px #f9a340;
+    border-radius: 5px;
+    color: #555555;
+    box-shadow: 10px 10px 20px black;
+}
+
+/*-----------------------------------------------------------------------*/
+}
+
+
+@media screen and (min-device-width:320px) and (max-device-width:699px){
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        width: 100%;
+        height: 150px;
+        background-color: darkorange;
+    }
+    
+    #div_atras {
+        display: none;
+    }
+    
+    #cabecalho{
+        width: 100%;
+        height: 150px;
+    }
+    
+    #logo {
+        width: 140px;
+        height: 140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #image_logo {
+        width: 140px;
+        height: 140px;
+        margin-top: 5px;
+    }
+    
+    #menu_mobile {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        margin-top: -115px;
+        margin-left: 50px;
+    }
+    
+    #menu_mobile img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    .item_menu_home {
+        display: none;
+    }
+    
+    .item_menu_informacoes {
+        display: none;
+    }
+    
+    .item_menu_ambientes {
+        display: none;
+    }
+    
+    .item_menu_fale_conosco {
+        display: none;
+    }
+    
+    #div_login {
+        display: none;
+    }
+    
+    #content_fale_conosco {
+        width: 100%;
+        min-height: 1000px;
+        background-color: palegreen;
+    }
+    
+    #panel {
+        height: 700px;
+        width: 100%;
+        background-color: mediumpurple;
+    }
+    
+    footer {
+        width: 100%;
+        height: 500px;
+        border-top: solid 1px darkorange;
+        margin-top: 50px;   
+    }
+    
+    #image_footer {
+        display: none;
+    }
+    
+    #text_footer {
+        width: 800px;
+        height: 500px;
+        float: left;
+        font-size: 45px;
+    }
+    
+    #titulo_footer {
+        font-size: 45px;
+        font-family: MV Boli;
+    }
+    
+    #div_rede_social_responsivo {
+        width: 180px;
+        height: 500px;
+        float: left;
+    }
+    
+    #caixa_rede_social_responsivo {
+        width: 150px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #rede_social_responsivo {
+        width: 150px;
+        height: 500px;
+    }
+    
+    #face_responsivo {
+        width: 150px;
+        height: 150px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    #twitter_responsivo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    
+    #gmail_responsivo {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .icone_rede_social {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        z-index: 998;
+        display: none;
+    }
+
+    .modal {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+    }
+    
+    .container3 {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        z-index: 998;
+        display: none;
+    }
+
+    .modal3 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container4 {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        z-index: 998;
+        display: none;
+    }
+    
+    .modal4 {
+        width: 100%;
+        height: 100%;
+        background-color: #fff3e4;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .titulo_pagina { /*Titulo de algumas páginas*/
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        font-size: 85px;
+        margin-bottom: 50px;
+        color: #555555;
+        font-family: "MV Boli";
+        text-shadow: 1px 1px 10px black; /*sombreamento no texto*/
+    }
+    
+    /*------------------MODAL MENU------------------------*/
+    #modal_menu {
+        width: 100%;
+        height: 100%;
+        background-color: #1f1f1f;
+    }
+    
+    #div_fechar_modal {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .fechar_modal {
+        width: 150px;
+        height: 150px;
+        background-color: #1f1f1f;
+        float: right;
+    }
+    
+    .img_fechar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #link_modal {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .item_menu_responsivo {
+        width: 500px;
+        height: 100px;
+        font-size: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .link_responsivo {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /*----------- MODAL MENU LATERAL------------*/
+    #modal_menu_lateral {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #div_fechar_modal_lateral {
+        width: 100%;
+        height: 150px;
+        background-color: #1f1f1f;
+    }
+    
+    #title_fechar_modal_lateral {
+        height: 150px;
+        width: 830px;
+        float: left;
+        font-size: 85px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-left: 300px;
+        font-family: Arial;
+        color: darkorange;
+    }
+    
+    .fechar_modal_lateral {
+        width: 150px;
+        height: 150px;
+        float: left;
+        background-color: #1f1f1f;
+    }
+    
+    #modal_categoria {
+        width: 100%;
+        min-height: 200px;
+        padding-top: 20px;
+    }
+    
+    .item_menu_lateral {
+        width: 700px;
+        min-height: 100px;
+        font-size: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        padding-top: 10px;
+        border: solid 1px black;
+        text-align: center;
+        background-color: darkorange;
+        font-family: Arial;
+    }
+    
+    .link_responsivo {
+        text-decoration: none;
+    }
+    
+    .subitem_menu_lateral {
+        width: 700px;
+        min-height: 0px;
+        display: none;
+    }
+    
+    .subitem_lateral {
+        width: 696px;
+        min-height: 90px;
+        background-color: #ffe8cc;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+        color: black;
+    }
+    
+    .link_menu_lateral {
+        color: black;
+        text-decoration: inherit;
+    }
+    
+    /*------------MODAL PRODUTO MOBILE------------*/
+    #modal_detales_mobile {
+        width: 100%;
+        height: 100%;
+        background-color: #1f1f1f;
+    }
+    
+    #faixa_fechar_modal_produto_mobile {
+        height: 150px;
+        width: 100%;
+        background-color: #1f1f1f;
+    }
+    
+    #title_modal_produto_mobile {
+        height: 150px;
+        width: 830px;
+        float: left;
+        font-size: 85px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-left: 350px;
+        font-family: Arial;
+        color: darkorange;
+    }
+    
+    .fechar_modal_detalhes_mobile {
+        width: 150px;
+        height: 150px;
+        float: left;
+        background-color: #1f1f1f;
+    }
+    
+    .item_produto_detalhes {
+        min-height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .descricao_produto_detalhes {
+        width: 100%;
+        min-height: 100px;
+        box-sizing: border-box;
+        padding: 10px;
+        padding-top: 10px;
+        color: #555555;
+        font-size: 65px;
+        text-align: justify;
+    }
+    
+    /*------------------HOME-------------------*/
+    #content { /*Content da home*/
+        width: 100%;
+        min-height: 900px;
+        padding-top: 10px;
+    }
+
+    #div_slider {
+        width: 100%;
+        height: 480px;
+    }
+
+    #previous { /*botão da esquerda do slide*/
+        display: none;
+    }
+
+    #next { /*botão da direita do slide*/
+        display: none;
+    }
+
+    .image_slide {
+        display: none;
+    }
+
+    #slider {
+        display: none;
+    }
+    
+    #div_image_slide_mobile {
+        width: 100%;
+        height: 480px;
+    }
+    
+    .image_slide_mobile {
+        width: 100%;
+        height: 480px;
+    }
+
+    #pos_slider { /*Div abaixo do slide*/
+        width: 100%;
+        min-height: 600px;
+    }
+    
+    #menu_lateral {
+        display: none;
+    }
+
+    #menu_lateral_mobile {
+        height: 150px;
+        width: 150px;
+        background-color: darkorange;
+        margin-top: 30px;
+        position: fixed;
+        margin-top: -300px;
+    }
+    
+    .img_menu_lateral {
+        height: 150px;
+        width: 150px;
+    }
+
+    .item { /*Itens do menu lateral*/
+        display: none;
+    }
+    
+    #div_pesquisa_produtos {
+        width: 100%;
+        height: 120px;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    
+    #div_pesquisa {
+        width: 800px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #txtpesquisa {
+        height: 97px;
+        width: 85%;
+        float: left;
+        border: 0px;
+        font-size: 55px;
+        outline: inherit;
+        padding-left: 5px;
+        background-color: #e5e5e5;
+        color: gray;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    
+    #btnpesquisa {
+        height: 100px;
+        width: 13%;
+        background-color: #0062ff;
+        outline: inherit;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 0px;
+        float: left;
+        padding-left: 40px;
+        background-image: url(../imagens/pesquisa_mobile.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    
+    #produtos { /*div ao lado do menu lateral que guarda os itens produtos*/
+        min-height: 100px;
+        width: 100%;
+    }
+
+    .item_produto { /*caixas com produtos*/
+        min-height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: solid 1px black;
+    }
+
+    .image_produto {
+        height: 600px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: chartreuse;
+    }
+
+    .name_produto {
+        width: 100%;
+        height: 100px;
+        background-color: #ffd993;
+        text-align: center;
+        font-size: 75px;
+        padding-top: 10px;
+        color: #555555;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .descricao_produto {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        padding: 10px;
+        padding-top: 10px;
+        color: #555555;
+        font-size: 65px;
+    }
+
+    .valor_produto {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 70px;
+        color: forestgreen;
+        padding-top: 10px;
+    }
+    
+    .detalhes_produto {
+        display: none;
+    }
+
+    .detalhes_produto_mobile {
+        height: 90px;
+        width: 500px;
+        font-size: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: mediumblue;
+    }
+
+    .img_produto_home {
+        width: 600px;
+        height: 600px;
+    }
+    
+    /*---------------PROMOÇÕES------------------*/
+    #content_promocoes {
+        width: 100%;
+        min-height: 400px;
+        padding-top: 10px;
+    }
+
+    .produtos_promocao {
+        width: 100%;
+        min-height: 300px;
+        margin-bottom: 50px;
+        border-bottom: solid 1px black;
+    }
+
+    .image_promocao {
+        height: 600px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .informacoes_promocao { /*div à direita da imagem*/
+        min-height: 300px;
+        width: 100%;
+    }
+
+    .titulo_promocao {
+        width: 100%;
+        height: 100px;
+        background-color: #ffd993;
+        text-align: center;
+        font-size: 70px;
+        padding-top: 10px;
+        color: #555555;
+    }
+
+    .descricao_promocao {
+        width: 100%;
+        min-height: 100px;
+        font-size: 50px;
+        box-sizing: border-box;
+        padding: 20px;
+        color: #555555;
+        text-align: justify;
+    }
+
+    .preco_promocao {
+        width: 100%;
+        height: 120px;
+    }
+
+    .preco_promocao_antigo {
+        width: 50%;
+        height: 120px;
+        font-size: 50px;
+        color: red;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 30px;
+    }
+
+    .preco_promocao_novo {
+        width: 50%;
+        height: 120px;
+        font-size: 60px;
+        color: green;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 25px;
+    }
+
+    .img_promocao {
+        width: 600px;
+        height: 600px;
+        float: left;
+    }
+    
+    /*-------------PRODUTO DO MÊS---------------*/
+    #content_produto_mes {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .produto_do_mes {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .image_produto_mes {
+        width: 800px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .informacoes_produto_mes {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .name_produto_mes {
+        width: 100%;
+        height: 110px;
+        text-align: center;
+        font-size: 85px;
+        padding-top: 5px;
+        color: #555555;
+        background-color: #f9a340;
+    }
+
+    .descricao_produto_mes {
+        width: 100%;
+        min-height: 10px;
+        color: #555555;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 50px;
+        text-align: justify;
+    }
+
+    .preco_produto_mes {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        font-size: 70px;
+        box-sizing: border-box;
+        color: green;
+    }
+
+    #img_bolo {
+        width: 800px;
+        height: 800px;
+    }
+    
+    /*--------------NOSSAS LOJAS----------------*/
+    #content_nossas_lojas {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .lojas { /*div para uma apresentar informações sobre outras lojas*/
+        width: 100%;
+        min-height: 150px;
+        background-color: #ffe8cc;
+        margin-bottom: 30px;
+        border-bottom: solid 1px black;
+        border-top: solid 1px black;
+    }
+
+    .cidade_loja { /*Possui a cidade que a loja fica*/
+        width: 100%;
+        height: 100px;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        color: #555555;
+    }
+
+    .endereco_telefone_loja { /*telefones e endereços da loja*/
+        width: 100%;
+        min-height: 80px;
+        font-size: 40px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        color: #555555;
+    }
+    
+    /*-----------------AMBIENTES----------------*/
+    #content_ambiente {
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    #leitura { /*espaço para apresentar as informações de leitura*/
+        width: 100%;
+        min-height: 300px;
+        margin-top: 20px;
+        border-bottom: solid 1px gray;
+        padding-bottom: 20px;
+    }
+
+    .title_sobre {
+        height: 110px;
+        width: 99%;
+        color: #555555;
+        padding-left: 10px;
+        font-size: 80px;
+        font-family: "MV Boli";
+    }
+    
+    .imagens {
+        min-height: 300px;
+        width: 100%;
+    }
+
+    .image_ambiente {
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 900px;
+        margin-bottom: 20px;
+    }
+
+    .img_ambiente {
+        height: 500px;
+        width: 900px;
+    }
+
+    .text_ambiente {
+        min-height: 100px;
+        width: 100%;
+        font-size: 50px;
+        color: #555555;
+        text-align: justify;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    /*-------------------SOBRE------------------*/
+    #content_sobre {
+        width: 100%;
+        min-height: 500px;
+        padding-bottom: 20px;
+    }
+
+    .faixa_sobre { /*faixa de informações sobre a padoka*/
+        width: 100%;
+        min-height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .image_sobre {
+        margin-left: auto;
+        margin-right: auto;
+        height: 550px;
+        width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .text_sobre {
+        width: 100%;
+        min-height: 100px;
+        font-size: 50px;
+        color: #555555;
+        text-align: justify;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .img_padaria {
+        width: 800px;
+        height: 550px;
+    }
+    
+    /*---------------------------FALE CONOSCO--------------------------------*/
+    #content_fale_conosco {
+        width: 100%;
+        min-height: 3260px;
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    #panel { /*painel para todas os itens do fale conosco*/
+        min-height: 3260px;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    #title_fale_conosco {
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        font-size: 85px;
+        color: #555555;
+        font-family: Arial;
+    }
+
+    #pos_title {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 10px;
+    }
+
+    .item_cadastro_text { /*Item para armazenar label e input*/
+        width: 100%;
+        height: 240px;
+        margin-bottom: 5px;
+    }
+
+    .title_cadastro { /*label de cada campo*/
+        height: 100px;
+        width: 99%;
+        font-size: 70px;
+        padding-left: 10px;
+        color: #555555;
+        font-family: Arial;
+    }
+
+    .item_cadastro { /*onde ficam os input's*/
+        height: 140px;
+        width: 99%;
+        padding-left: 10px;
+    }
+
+    .caixa { /*Estilização da caixa de texto do fale conosco*/
+        height: 110px;
+        width: 97%;
+        border: 0px;
+        font-size: 50px;
+        padding-left: 5px;
+        color: #555555;
+        outline: inherit;
+        border-bottom: solid 2px darkorange;
+    }
+
+    .item_cadastro_textarea { /*espaço para o textarea*/
+        width: 100%;
+        height: 430px;
+    }
+
+    .item_caixa_textarea {
+        width: 99%;
+        height: 320px;
+        padding-left: 10px;
+    }
+
+    .caixa_textarea { /*Estilização dos text-area*/
+        width: 97%;
+        height: 300px;
+        border: 0px;
+        border-bottom: solid 2px darkorange;
+        font-size: 50px;
+        padding-left: 5px;
+        outline: inherit;
+        resize: none;
+        color: #555555;
+    }
+
+    .radio { /*Estilização do radio button*/ 
+        font-size: 60px;
+        width: 49%;
+        height: 100px;
+        float: left;
+        color: #555555;
+    }
+    
+    .radio_button {
+        height: 50px;
+        width: 50px;
+        margin-top: 25px;
+    }
+
+    #botoes {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .botao { /*estilização do botão do fale conosco*/
+        border: 0px;
+        background-color: limegreen;
+        border-radius: 15px;
+        color: white;
+        height: 150px;
+        font-size: 50px;
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 250px;
+    }
+    
+    #botao_limpar {
+        border: 0px;
+        background-color: orange;
+        border-radius: 15px;
+        color: white;
+        height: 150px;
+        font-size: 50px;
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 250px;
+    }
+
+    #text_contato { /*área onde fica um pequeno texto sobre o fale conosco*/
+        width: 99%;
+        height: 800px;
+        background-color: #ffe5b6;
+        padding-top: 10px;
+        font-size: 55px;
+        padding-left: 10px;
+        color: #555555;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
